@@ -1,1 +1,1 @@
-# react-es6-less-webpack
+# react-flux-es6-less-webpack
