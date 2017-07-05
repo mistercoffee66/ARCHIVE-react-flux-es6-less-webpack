@@ -1,7 +1,7 @@
 import React from 'react';
-import * as AppActions from '../AppActions';
-import AppStore from '../AppStore';
-import * as Utils from '../helpers/utils';
+import * as AppActions from '../../AppActions';
+import AppStore from '../../AppStore';
+import * as Utils from '../../helpers/utils';
 
 export default class App extends React.Component {
 
