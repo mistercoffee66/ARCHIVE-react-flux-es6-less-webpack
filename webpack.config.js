@@ -1,6 +1,5 @@
 const path = require('path')
 const webpack = require('webpack')
-const HotModuleReplacementPlugin = require('react-hot-loader')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ImageminPlugin = require('imagemin-webpack-plugin').default
 const imageminPngquant = require('imagemin-pngquant')
@@ -17,7 +16,7 @@ let publicPath
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'development'
 isDev = process.env.NODE_ENV !== 'production'
-publicPath = path.join(__dirname, 'build')
+publicPath = '/'
 
 console.log('environment: ' + chalk.bgGreen(` ${process.env.NODE_ENV} `) + '\n')
 

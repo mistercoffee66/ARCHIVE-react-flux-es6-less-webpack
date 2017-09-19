@@ -1,4 +1,5 @@
 import Modernizr from '../_lib/modernizr-custom';
+import $ from 'jquery'
 import _throttle from 'lodash.throttle';
 
 export const isTruthy = (val = false) => {

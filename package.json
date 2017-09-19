@@ -9,7 +9,7 @@
     "url": "https://github.com/samelwitt/react-flux-es6-less-webpack"
   },
   "scripts": {
-    "start": "export NODE_ENV=development && webpack-dev-server --progress --inline --hot",
+    "start": "export NODE_ENV=development && webpack-dev-server --progress",
     "prod": "export NODE_ENV=production && rm -rf ./build && webpack -p && echo '\nDONE'"
   },
   "dependencies": {

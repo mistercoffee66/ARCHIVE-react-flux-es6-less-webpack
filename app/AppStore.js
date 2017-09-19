@@ -1,7 +1,6 @@
 import { EventEmitter } from "fbemitter";
 import dispatcher from "./AppDispatcher";
 import { viewport } from './helpers/utils';
-import { resolvePath } from './helpers/utils';
 
 class AppStore extends EventEmitter {
 
